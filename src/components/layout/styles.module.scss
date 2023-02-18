@@ -1,0 +1,18 @@
+@import '../../styles/mixins';
+@import '../../styles/variables';
+@import '../../styles/mediaqueries';
+
+.layout__container {
+   display: grid;
+   min-height: 100vh;
+
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr 20%;
+   position: relative;
+
+   .main {
+      background-color: $body-color;
+      // padding-top: $nav-height;
+   }
+
+}

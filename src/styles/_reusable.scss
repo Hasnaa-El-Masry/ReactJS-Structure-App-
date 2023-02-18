@@ -1,0 +1,22 @@
+
+@import './_variables.scss';
+
+.text-white {
+    color: $text-white;
+}
+
+.text-light {
+    color: $text-color-light;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.icon {
+    color: $first-color;
+}
+
+.pointer {
+    cursor: pointer;
+}

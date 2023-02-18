@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Raleway&display=swap');
+
+
+/* ===== Colors   ===== */
+
+$hue: 200;
+$sat: 90;
+
+$first-color: hsl($hue, $sat, 60%);
+$first-color-light: hsl($hue, $sat, 85%);
+$first-color-lighten: hsl($hue, $sat, 80%);
+$first-color-alt: hsl($hue, $sat, 53%);
+
+$text-white: #fff;
+$text-color: #444;
+$text-color-lighten: rgba(255, 255, 255, .8);
+$text-color-light: rgba(255, 255, 255, .5);
+
+$body-color: #fff;
+$container-color: hsl($hue, $sat, 15%);
+
+$scroll-bar-color: hsl($hue, 4%, 85%);
+$scroll-thumb-color: hsl($hue, 4%, 75%);
+
+/* ===== Font and Typography  ===== */
+
+$body-font: 'Poppins', sans-serif;
+$biggest-font-size: 2rem;
+$h2-font-size: 1.25rem;
+$h3-font-size: 1.125rem;
+
+$normal-font-size: .938rem;
+$small-font-size: .813rem;
+$smaller-font-size: .75rem;
+
+/* ===== Container width  ===== */
+
+$container-width-lg: 75%;
+$container-width-md: 86%;
+$container-width-sm: 90%;
+
+/* ===== Section  ===== */
+$section-padding: 4.5rem 0 1rem;
+
+/* =====  Font Weight  ===== */
+
+$font-semi-bold: 600;
+$font-bold: 700;
+
+/* =====  Margins  ===== */
+
+$mb-0-5: .5rem;
+$mb-0-75: .75rem;
+$mb-1: 1rem;
+$mb-1-5: 1.5rem;
+$mb-2: 2rem;
+
+/* =====  Z index  ===== */
+
+$z-tooltip: 10;
+$z-fixed: 100;
+
+/* ===== Transition  ===== */
+$transition-slow: all .7s ease-in-out;
+$transition-fast: all .4s ease-in-out;
+
+$box-shadow-light: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+$toggle-icon-size:1.5rem;
+
+$nav-height: 4rem;
+$nav-padding: 1rem 3rem;
+$nav-border: 1px solid rgba($color: $first-color, $alpha: .3);

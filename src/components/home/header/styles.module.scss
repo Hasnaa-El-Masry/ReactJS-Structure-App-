@@ -1,0 +1,10 @@
+.header {
+    min-height: 100vh;
+    position: relative;
+
+    .content {
+        position: absolute;
+        top: 50%;
+        z-index: 3;
+    }
+}

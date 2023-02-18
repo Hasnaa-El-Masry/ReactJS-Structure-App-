@@ -1,0 +1,11 @@
+@import '../../../styles/variables';
+
+.layer {
+    min-height: 100vh;
+    background-color: rgba($color: $first-color, $alpha: .4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
